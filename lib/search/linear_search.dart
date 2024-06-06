@@ -16,7 +16,7 @@ void main(List<String> args) {
   List<int> array = [3, 4, 3, 15, 2, 5, 6, 10];
   LinearSearch linearSearch = LinearSearch();
 
-  int result = linearSearch.linearSearch(array, 10, 0);
+  int result = linearSearch.linearSearch(array, 8, 0);
 
   print(" ${result==-1?"Target is not available":"Target position : $result"}");
 }

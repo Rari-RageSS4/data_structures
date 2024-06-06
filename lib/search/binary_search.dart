@@ -7,7 +7,6 @@ class BinarySearch {
     print("Sorted array $array");
     int start = 0;
     int end = array.length - 1;
-    // int middle = array.length ~/ 2;
     while (start <= end) {
       int middle = (start + end) ~/ 2;
       if (array[middle] == searchItem) {

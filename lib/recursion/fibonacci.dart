@@ -1,5 +1,5 @@
 void main() {
-  int fibonacci = fib(3);
+  int fibonacci = fib(10);
   print(fibonacci);
 }
 

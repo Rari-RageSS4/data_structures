@@ -3,7 +3,6 @@ class RecursiveReverse {
     if (str.isEmpty) {
       return str; // base case
     } else {
-      print(str.substring(1) + str[0]);
       return reverseString(str.substring(1)) + str[0];
     }
   }
@@ -18,6 +17,6 @@ class RecursiveReverse {
 
 void main(List<String> args) {
   RecursiveReverse recursiveReverse = RecursiveReverse();
-  //print(recursiveReverse.reverseString("Hello world"));
+  print(recursiveReverse.reverseString("Hello world"));
   print(recursiveReverse.factorial(5));
 }
